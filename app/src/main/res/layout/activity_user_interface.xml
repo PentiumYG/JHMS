@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context="com.example.yuktigoswami.jhms.UserInterface">
+
+    <Button
+        android:id="@+id/students"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="26dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="57dp"
+        android:background="@drawable/rounded_cornors"
+        android:backgroundTint="#c446ff35"
+        android:padding="20dp"
+        android:text="S"
+        android:textSize="22dp" />
+
+    <Button
+        android:id="@+id/hostlers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:background="@drawable/rounded_cornors"
+        android:backgroundTint="#b43172fe"
+        android:padding="20dp"
+        android:text="H"
+        android:textSize="22dp" />
+
+    <Button
+        android:id="@+id/college"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/students"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/students"
+        android:layout_marginBottom="81dp"
+        android:clickable="true"
+        android:background="@drawable/rounded_cornors"
+        android:backgroundTint="#b7ff4343"
+        android:padding="20dp"
+        android:text="C"
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/students"
+        android:layout_alignBottom="@+id/students"
+        android:layout_alignEnd="@+id/hostlers"
+        android:layout_alignRight="@+id/hostlers"
+        android:layout_marginEnd="68dp"
+        android:layout_marginRight="68dp"
+        android:text="Students"
+        android:textColor="@android:color/black"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/hostlers"
+        android:layout_alignBottom="@+id/hostlers"
+        android:layout_alignLeft="@+id/students"
+        android:layout_alignStart="@+id/students"
+        android:text="Hostlers"
+        android:textColor="@android:color/black"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/college"
+        android:layout_alignBottom="@+id/college"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_alignRight="@+id/textView"
+        android:text="College "
+        android:textColor="@android:color/black"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+
+
+</RelativeLayout>
